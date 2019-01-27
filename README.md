@@ -20,7 +20,7 @@ I do not take any responsibility of the troubles you may faced. Using, even seei
 此文件必须在主程序根目录下，为了保证您自身安全没有此文件将会无法运行
 ```
 MouseRecord=false#NO        这里设置是否打开鼠标记录器，#后必须跟随NO
-KeyboardRecord=false#NO     这里设置是否打开键盘记录器，#后必须
+KeyboardRecord=false#NO     这里设置是否打开键盘记录器，#后必须跟随NO
 ProcessRecord=false#60      这里设置是否打开进程记录器，#后跟记录频率，单位为秒
 Screenshot=false#600        这里设置是否打开屏幕截图  ，#后跟截图频率，单位为秒
 ```
