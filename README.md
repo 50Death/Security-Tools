@@ -6,7 +6,7 @@ Security Tools 顾名思义是与信息安全相关的工具
 1. [键盘记录器](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/KeyboardRecord.java)
 2. [鼠标记录器](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/MouseRecord.java)
 3. [进程记录器](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/ProcessRecord.java)
-4. [屏幕截图](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/Screenshot.java)
+4. [屏幕截图器](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/Screenshot.java)
 
 ## 免责声明
 本仓库所涉及一切程序, 代码等元素均为学习所用, 程序设计者即本人对使用者在使用过程中所造成的一切后果不承担任何责任, 下载或查阅或参考任何代码或文件即表示您同意一切后果由使用者承担
