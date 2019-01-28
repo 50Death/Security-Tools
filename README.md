@@ -40,7 +40,7 @@ Screenshot文件夹储存了屏幕截图
 #### 鼠标记录器记录文件
 每行分别记录了【时间】【操作】【位置】
 打好的包内已设置了点击或使用滚轮才记录
-操作代码对应操作如下，以后会更新在Finalize里
+操作代码对应操作如下，以后会更新在Finalize里[已更新]
 ```java
     public static final int WM_MOUSEMOVE = 512;
     public static final int WM_LBUTTONDOWN = 513;
