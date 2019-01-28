@@ -1,0 +1,4 @@
+MouseRecord=false#NO
+KeyboardRecord=false#NO
+ProcessRecord=false#60
+Screenshot=false#600
