@@ -3,10 +3,11 @@
 Security Tools 顾名思义是与信息安全相关的工具
 
 ## 工具列表
-1. [键盘记录器](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/KeyboardRecord.java)
-2. [鼠标记录器](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/MouseRecord.java)
-3. [进程记录器](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/ProcessRecord.java)
-4. [屏幕截图器](https://github.com/50Death/Security-Tools/blob/master/SecurityTools/src/main/java/com/lyc/security/recorder/Screenshot.java)
+1. [键盘记录器](https://github.com/50Death/Security-Tools/blob/master/Recorder/SecurityTools/src/main/java/com/lyc/security/recorder/KeyboardRecord.java)
+2. [鼠标记录器](https://github.com/50Death/Security-Tools/blob/master/Recorder/SecurityTools/src/main/java/com/lyc/security/recorder/MouseRecord.java)
+3. [进程记录器](https://github.com/50Death/Security-Tools/blob/master/Recorder/SecurityTools/src/main/java/com/lyc/security/recorder/ProcessRecord.java)
+4. [屏幕截图器](https://github.com/50Death/Security-Tools/blob/master/Recorder/SecurityTools/src/main/java/com/lyc/security/recorder/Screenshot.java)
+5. [结果格式化](https://github.com/50Death/Security-Tools/blob/master/Recorder/SecurityTools/src/main/java/com/lyc/security/recorder/Finalize.java)
 
 ## 免责声明
 本仓库所涉及一切程序, 代码等元素均为学习所用, 程序设计者即本人对使用者在使用过程中所造成的一切后果不承担任何责任, 下载或查阅或参考任何代码或文件即表示您同意一切后果由使用者承担
@@ -90,8 +91,12 @@ TXT文件每10秒写入一次，因此当程序意外退出时无法记录临近
 
 截图时对计算机性能影响较大，不截图时处于睡眠状态无影响
 
-``内存占用：50,000KB左右 ``
+``内存占用：50,000KB左右，长期开启占用过高已优化 ``
 
+#### 格式化工具
+将鼠标记录器或键盘记录器记录文件内的键值转译为易读懂的写法（如160为左SHIFT）
+
+此记录文件需要共同维护补充，键值测试自Windows10 Logitech G610 Keyboard
 ## 使用要求
 Java运行环境
 Windows操作系统
